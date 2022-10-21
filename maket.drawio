@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T22:00:13.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="iiejFLI6vDAKLR-LAl4K" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T22:04:56.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="lOi6hkfTb_4lHBWIDAlT" version="20.4.2" type="github">
   <diagram id="QHVrxJFRXrvULvgmnxff" name="Страница 1">
     <mxGraphModel dx="1018" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k3diRSCtVvgtM6xp0gNi-72" value="маршрут" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillStyle=hachure;strokeColor=#336600;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;fillColor=#E6E6E6;gradientColor=none;opacity=40;" vertex="1" parent="1">
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-72" value="текущий маршрут" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillStyle=hachure;strokeColor=#336600;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;fillColor=#E6E6E6;gradientColor=none;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="270" y="198" width="99" height="43" as="geometry" />
         </mxCell>
         <mxCell id="k3diRSCtVvgtM6xp0gNi-76" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#336600;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=5;endSize=3;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;" edge="1" parent="1" source="k3diRSCtVvgtM6xp0gNi-75" target="k3diRSCtVvgtM6xp0gNi-44">
@@ -308,7 +308,7 @@
         <mxCell id="k3diRSCtVvgtM6xp0gNi-107" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/technology-and-hardware-2/200/vector_66_14-128.png;shadow=0;glass=0;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontFamily=Tahoma;fontSize=60;fontColor=default;fillColor=#B3B3B3;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="227" y="573" width="27" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="k3diRSCtVvgtM6xp0gNi-109" value="" style="shape=flexArrow;endArrow=classic;html=1;sketch=1;strokeColor=#10739e;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startSize=5;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;curved=1;width=24.666666666666668;fillColor=#b1ddf0;entryX=0.497;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="k3diRSCtVvgtM6xp0gNi-15">
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-109" value="" style="shape=flexArrow;endArrow=classic;html=1;sketch=1;strokeColor=#10739e;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startSize=5;endSize=25.34;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;curved=1;width=34;fillColor=#b1ddf0;entryX=0.497;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="k3diRSCtVvgtM6xp0gNi-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="540" as="sourcePoint" />
             <mxPoint x="100" y="450" as="targetPoint" />
@@ -317,6 +317,39 @@
         <mxCell id="k3diRSCtVvgtM6xp0gNi-110" value="при длительном нажатии" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Tahoma;fontColor=default;horizontal=0;" vertex="1" connectable="0" parent="k3diRSCtVvgtM6xp0gNi-109">
           <mxGeometry x="-0.222" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-111" value="" style="shape=flexArrow;endArrow=classic;html=1;sketch=1;strokeColor=#23445d;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startSize=5;endSize=19;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endWidth=52;width=32;fillColor=#bac8d3;" edge="1" parent="1" target="k3diRSCtVvgtM6xp0gNi-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="760" as="sourcePoint" />
+            <mxPoint x="254" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-112" value="маркер поломки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Tahoma;fontColor=default;horizontal=0;" vertex="1" connectable="0" parent="k3diRSCtVvgtM6xp0gNi-111">
+          <mxGeometry x="-0.2794" relative="1" as="geometry">
+            <mxPoint x="-3" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-114" value="" style="shape=flexArrow;endArrow=classic;html=1;sketch=1;strokeColor=#23445d;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startSize=5;endSize=19;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endWidth=52;width=32;fillColor=#bac8d3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="760" as="sourcePoint" />
+            <mxPoint x="385" y="602.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-115" value="маркер ДТП (требуется МСП)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Tahoma;fontColor=default;horizontal=0;" vertex="1" connectable="0" parent="k3diRSCtVvgtM6xp0gNi-114">
+          <mxGeometry x="-0.2794" relative="1" as="geometry">
+            <mxPoint x="-2" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-116" value="" style="shape=flexArrow;endArrow=classic;html=1;sketch=1;strokeColor=#23445d;strokeWidth=1;fontFamily=Tahoma;fontSize=10;fontColor=default;startSize=5;endSize=19;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;opacity=50;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endWidth=52;width=32;fillColor=#bac8d3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="101" y="762" as="sourcePoint" />
+            <mxPoint x="101" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-117" value="маркер ДТП" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Tahoma;fontColor=default;horizontal=0;" vertex="1" connectable="0" parent="k3diRSCtVvgtM6xp0gNi-116">
+          <mxGeometry x="-0.2794" relative="1" as="geometry">
+            <mxPoint x="-3" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
