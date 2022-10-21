@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T14:57:58.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="WL1I2Cl7x9kopS7_ec_H" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T15:00:07.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="BIR7HNwvvdoKEVuykbmO" version="20.4.2" type="github">
   <diagram id="QHVrxJFRXrvULvgmnxff" name="Страница 1">
-    <mxGraphModel dx="509" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="657" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,12 +9,6 @@
         </mxCell>
         <mxCell id="k3diRSCtVvgtM6xp0gNi-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="200" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="k3diRSCtVvgtM6xp0gNi-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="314" y="40" width="200" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="k3diRSCtVvgtM6xp0gNi-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="40" width="200" height="390" as="geometry" />
         </mxCell>
         <mxCell id="k3diRSCtVvgtM6xp0gNi-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;strokeColor=#333300;shadow=0;fillColor=none;perimeterSpacing=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="89" y="360" width="183" height="34" as="geometry" />
@@ -37,8 +31,8 @@
         <mxCell id="k3diRSCtVvgtM6xp0gNi-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/38.Location-Pin-128.png;shadow=0;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="105" y="295" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="k3diRSCtVvgtM6xp0gNi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=#E6E6E6;rotation=90;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="197" y="201" width="120" height="20" as="geometry" />
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=#B3B3B3;rotation=90;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="197" y="213" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
