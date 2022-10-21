@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T14:38:06.792Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="20.4.2" etag="rNVGJtGtkxZvQbpFO3mD" type="github"><diagram id="QHVrxJFRXrvULvgmnxff">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-21T14:57:58.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="WL1I2Cl7x9kopS7_ec_H" version="20.4.2" type="github">
+  <diagram id="QHVrxJFRXrvULvgmnxff" name="Страница 1">
+    <mxGraphModel dx="509" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-18" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.map;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#333300;fontSize=60;fillColor=#E6E6E6;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="89" y="76" width="185" height="283" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="40" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;strokeColor=#333300;shadow=0;fillColor=none;perimeterSpacing=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="360" width="183" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-9" value="69" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;strokeWidth=1;sketch=0;fontSize=60;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-10" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;strokeColor=#333300;shadow=0;dashed=0;shape=mxgraph.ios7.icons.map;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="366" width="20" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/setting-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="362" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;sketch=1;strokeColor=#333300;strokeWidth=1;fillColor=default;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="94" y="284" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/location-service-place-gps-128.png;shadow=0;labelBorderColor=none;sketch=0;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247" y="88" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/38.Location-Pin-128.png;shadow=0;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="295" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k3diRSCtVvgtM6xp0gNi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#333300;strokeWidth=1;fontSize=60;fillColor=#E6E6E6;rotation=90;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="197" y="201" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
