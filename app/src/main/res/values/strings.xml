@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MotoHelp</string>
+    <string name="gps_my_location_button">GPS My location button</string>
+    <string name="gps_my_setting_button">Setting</string>
+</resources>
