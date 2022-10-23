@@ -1,9 +1,9 @@
 package ru.gb.motohelp
 
-import android.annotation.SuppressLint
+import android.Manifest
 import android.content.Context
 import android.content.SharedPreferences
-
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.MotionEvent
@@ -12,6 +12,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import org.osmdroid.api.IMapController
 import org.osmdroid.config.Configuration
+import org.osmdroid.tileprovider.tilesource.MapBoxTileSource
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.MapView
@@ -26,8 +27,7 @@ import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay
 import ru.gb.motohelp.databinding.ActivityMainBinding
 
-
-private val REQUEST_PERMISSIONS_REQUEST_CODE = 1 // константа для запроса
+private val REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS = 124 // константа для запроса
 private lateinit var mapView: MapView
 private lateinit var binding: ActivityMainBinding
 private lateinit var mapController: IMapController
@@ -44,6 +44,7 @@ const val DEFAULT_ZOOM = "10.0"
 const val KEY_LAST_LOCATIONS_LAT = "LAST_LOCATIONS_LAT" // последняя позиция широты
 const val KEY_LAST_LOCATIONS_LON = "LAST_LOCATIONS_LON" // последняя позиция долготы
 
+
 lateinit var sharedPreferences: SharedPreferences
 lateinit var sharedPreferencesEditor: SharedPreferences.Editor
 
@@ -58,6 +59,8 @@ class MainActivity : AppCompatActivity() {
         mapView = binding.mapView
         mapView.setTileSource(TileSourceFactory.MAPNIK)
         mapController = mapView.controller
+
+
 
         // масштабирование и жесты
         mapView.setBuiltInZoomControls(true) // зум
@@ -78,7 +81,7 @@ class MainActivity : AppCompatActivity() {
 
         // если убрать, то шрифт будет очень мелкий на карте, эксперементировал только со своим телефоном
         // у кого как, отпишите потом в комментариях
-        mapView.setTilesScaledToDpi(true)
+        mapView.setTilesScaledToDpi(false)
 
 
         binding.fabMyLocationButton.setOnClickListener {
@@ -97,8 +100,8 @@ class MainActivity : AppCompatActivity() {
             startMarker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
             mapView.overlays.add(startMarker)
         }
+        checkPermissions()
     }
-
 
     fun sharedPreferences(){
         setZoomSharedPreferences = sharedPreferences.getString(KEY_SET_ZOOM, "")
@@ -220,29 +223,19 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
     }
 
-    @SuppressLint("MissingSuperCall")// обработка результатов запроса на разрещения
-    //основные данные здесь несет массив grantResults, в котором находится информация
-    // получены разрешения или нет.
-    // Каждому i-му элементу permissions соответствует i-ый элемент из grantResults.
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
-    ) {
-        val permissionsToRequest = ArrayList<String>()
-        var i = 0
-        while (i < grantResults.size) {
-            permissionsToRequest.add(permissions[i])
-            i++
-        }
-        if (permissionsToRequest.size > 0) {
-            ActivityCompat.requestPermissions(
+
+    fun checkPermissions() {
+        val permissions: MutableList<String> = ArrayList()
+        if (ContextCompat.checkSelfPermission(
                 this,
-                permissionsToRequest.toTypedArray(),
-                REQUEST_PERMISSIONS_REQUEST_CODE
-            )
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            permissions.add(Manifest.permission.ACCESS_FINE_LOCATION)
+        }
+        if (!permissions.isEmpty()) {
+            val params = permissions.toTypedArray()
+            ActivityCompat.requestPermissions(this, params, REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS)
         }
     }
-
-
 }
