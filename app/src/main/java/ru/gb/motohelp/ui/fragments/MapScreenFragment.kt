@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.commit
 import org.osmdroid.api.IMapController
 import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
@@ -108,6 +109,16 @@ class MapScreenFragment : Fragment(R.layout.map_screen_fragment) {
         binding.fabMyLocationButton.setOnClickListener {
             // перенос на текущее местоположение
             myLocationFun(mapController)
+        }
+
+        binding.fabMySettingButton.setOnClickListener {
+
+            requireActivity().supportFragmentManager.commit {
+                setReorderingAllowed(true)
+                replace(R.id.main_fragment_container, SettingsFragment())
+                addToBackStack("settings")
+            }
+
         }
 
         binding.fabMyEvent.setOnClickListener {
