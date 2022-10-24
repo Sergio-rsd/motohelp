@@ -18,6 +18,5 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                 replace(R.id.main_fragment_container, MapScreenFragment.newInstance())
             }
         }
-
     }
 }

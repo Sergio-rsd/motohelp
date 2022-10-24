@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933620924128",
+    "project_id": "motohelpgb-3ae65",
+    "storage_bucket": "motohelpgb-3ae65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933620924128:android:7040467f24203d17879a85",
+        "android_client_info": {
+          "package_name": "ru.gb.motohelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933620924128-csjqngt1e0abu3hkv0nckm3bv4a3p8fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKaVh_ytgvJaf4D0xIfsRle-nMInqI9SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933620924128-csjqngt1e0abu3hkv0nckm3bv4a3p8fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
