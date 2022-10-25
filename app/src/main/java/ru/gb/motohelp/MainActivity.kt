@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.preference.PreferenceManager
+import android.util.Log
 import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -95,6 +96,7 @@ class MainActivity : AppCompatActivity() {
             // val startPoint = GeoPoint(mLocationOverlay.myLocation.latitude,mLocationOverlay.myLocation.longitude)
             // пока не разобрался как подставить координаты текущей позиции в GeoPoint
             val startPoint = GeoPoint(55.5992, 37.9342)
+            Log.d("probaTAG", "msg1:$startPoint")//мини тест
             val startMarker = Marker(mapView)
             startMarker.position = startPoint
             startMarker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
